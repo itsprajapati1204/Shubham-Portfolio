@@ -1,0 +1,19 @@
+/* nav-bar */
+.main-nav {
+  justify-content: space-between;
+  padding: var(--padding-inline-section);
+  position: relative;
+}
+.company-logo img {
+  width: 50px;
+}
+.nav-links {
+  flex-basis: 730px;
+}
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+.nav-toggle {
+  display: none;
+}

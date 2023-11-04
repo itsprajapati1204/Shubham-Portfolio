@@ -1,0 +1,11 @@
+.New-project-page{
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+.project-text {
+    padding-top: 0;
+  }
+.project-text h2{
+   font-size: 5vh;
+   font-weight: 500;
+  }
