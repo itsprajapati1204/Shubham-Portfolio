@@ -37,10 +37,11 @@
   </head>
   <body>
     <!-- Navbar  section start-->
-    <nav>
+    <navbar>
       <div href="#" class="container main-nav flex">
         <a href="#" class="company-logo">
           <img src="/images/svg/logo-01.svg" alt="company-logo" />
+          
         </a>
         <div class="nav-links active" id="nav-links" >
           <ul class="flex">
@@ -61,7 +62,7 @@
         ></a>
         <!-- <i class="fi fi-br-cross"></i> -->
       </div>
-    </nav>
+    </navbar>
     <!-- Navbar section end -->
 
     <!-- herder-section -->
@@ -365,6 +366,13 @@
       element.classList.toggle('dark-mode');
         }
   </script>
+<!-- logo toggle -->
+<script type ="text/javascript"> 
+  function myfunction() {
+      var element =document.body;
+      element.classList.toggle('dark-mode');
+        }
+  </script>
     
     <!-- scrolling name like webdeveloper sript -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -405,6 +413,14 @@
   AOS.init({
     offset: 250,
   });
+</script>
+<!-- navbar sticky
+<script type="text/javascript">
+  window.addEventListener("scroll",function(){
+    var navbar = document.querySelector("navbar");
+    navbar.classList.toggle("sticky", window.scrollY > 0);
+  }) -->
+
 </script>
   </body>
 </html>
