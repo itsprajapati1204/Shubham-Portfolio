@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="/css/skills.css" />
     <link rel="stylesheet" href="/css/project-section.css">
     <script src="/script.js"></script>
-    
     <!-- icon script -->
     <link
       rel="stylesheet"
@@ -279,7 +278,7 @@
                   alt=""
                 />
               </div>
-              <form id="contact-form"  name="submit-to-google-sheet">
+              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" name="submit-to-google-sheet">
                 <div class="form-group">
                   <div class="field">
                     <input
@@ -291,6 +290,7 @@
                     <i class="fi fi-sr-user"></i>
                   </div>
                   <div class="field">
+                    <input type="hidden" name="access_key" value="27afe7c1-b1b8-44c3-afad-9245e54e0c73">
                     <input
                       type="text"
                       name="Email"
@@ -313,7 +313,7 @@
                   </div>
                 </div>
                 <div class="button-area btn-success" >
-                  <button type="Submit"  onclick="function2()"  class="primary-button get-started-button btn"
+                  <button type="Submit"  onclick="function2()"   class="primary-button get-started-button btn"
                   >Say Hello 👋</button>
                  
                 </div>
@@ -384,20 +384,12 @@
         loop:true,
       });
  </script>
- <!-- // excel sheet request Script // -->
+
+ <!-- //Email script request Script // -->
 
    
     
- <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzM6LlpiHmnBCV2XDQ2aOj3ZMhYygas83OcRdmIOWZ8qsGHwE948r-_1f5-Y_vqYOrx/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      // .then(response =>alert("Thanks for Connecting"))
-      .catch(error => console.error('Error!', error.message))
-  })
+ <script src="https://web3forms.com/client/script.js" async defer></script>>
   </script>
   <script language="JavaScript">
     function function2() { 
@@ -420,6 +412,16 @@
     var navbar = document.querySelector("navbar");
     navbar.classList.toggle("sticky", window.scrollY > 0);
   }) -->
+
+</script>
+<!-- referesh button -->
+<script>
+  function reload(){
+    const button = document.querySelector("button");
+    button.addEventListener("click",()=> {
+      window.location.reload();
+    })
+  }
 
 </script>
   </body>
