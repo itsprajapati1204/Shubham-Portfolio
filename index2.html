@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Portfolio | Shubham-Webdeveloper</title>
-    <link rel="shortcut icon" type="x-icon" href="images/svg/logo-01Dark.svg">
+    <title>Portfolio | Shubham-Webdeveloper</title>
+    <link rel="shortcut icon" type="x-icon" href="images/svg/logo-01Dark.svg" />
     <!-- linking  sheets -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
@@ -12,135 +12,180 @@
     <link rel="stylesheet" href="/css/mediaquaries.css" />
     <link rel="stylesheet" href="/css/aboutsection.css" />
     <link rel="stylesheet" href="/css/skills.css" />
-    <link rel="stylesheet" href="/css/project-section.css">
-    <link rel="stylesheet" href="/css/Newprojectpage.css">
+    <link rel="stylesheet" href="/css/project-section.css" />
+    <link rel="stylesheet" href="/css/Newprojectpage.css" />
     <script src="/script.js"></script>
-    
+
     <!-- icon script -->
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
     />
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
     <!-- ----------------------------- -->
     <!-- website animations cdn -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- ----------------------------- -->
-     <!-- .....succeful message script..... -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+    <!-- .....succeful message script..... -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script
       src="https://kit.fontawesome.com/06a84d219c.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-     <!-- Navbar  section start-->
-     <nav>
-        <div href="#" class="container main-nav flex">
-          <a href="#" class="company-logo">
-            <img src="/images/svg/logo-01.svg" alt="company-logo" />
-          </a>
-          <div class="nav-links active" id="nav-links" >
-            <ul class="flex">
-              <li><a href="#" class="hover-link">Home</a></li>
-              <li><a href="#skills" class="hover-link">Skills</a></li>
-              <li><a href="#projects" class="hover-link">Projects</a></li>
-              <li><a href="#education" class="hover-link">Education</a></li>
-              <li><a href="#contactus" class="hover-link">Contact us</a></li>
-              <li>
-                <a href="#" onclick="myfunction()" class="hover-link dark-mode"
-                  ><i class="fi fi-sr-brightness" onclick="ChangeIcon(this)" ></i></a>
-                 <!-- <i class="fi fi-ss-moon-stars"></i> -->
-              </li>
-            </ul>
-          </div>
-          <a href="#" class="nav-toggle hover-link" id="nav-toggle"
-            ><i class="fa-solid fa-bars" onclick="HamIcon(this)"></i
-          ></a>
-          <!-- <i class="fi fi-br-cross"></i> -->
+    <!-- Navbar  section start-->
+    <nav>
+      <div href="#" class="container main-nav flex">
+        <a href="#" class="company-logo">
+          <img src="/images/svg/logo-01.svg" alt="company-logo" />
+        </a>
+        <div class="nav-links active" id="nav-links">
+          <ul class="flex">
+            <li><a href="index.html" class="hover-link"><i class="fi fi-ss-home"></i></a></li>
+            <!-- <li><a href="#skills" class="hover-link">Skills</a></li>
+            <li><a href="#projects" class="hover-link">Projects</a></li>
+            <li><a href="#education" class="hover-link">Education</a></li>
+            <li><a href="#contactus" class="hover-link">Contact us</a></li> -->
+            <li>
+              <a href="#" onclick="myfunction()" class="hover-link dark-mode"
+                ><i class="fi fi-sr-brightness" onclick="ChangeIcon(this)"></i
+              ></a>
+              <!-- <i class="fi fi-ss-moon-stars"></i> -->
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- Navbar section end -->  
-  <!-- project section -->
-  <section class="container New-project-page" id="projects">
-    <div class="features-header project-text"><h2>Projects</h2></div>
-    <div class="container-new">
-        <div class="box-container-new" data-aos="slide-up">
-  
-          <div class="box">
-              <img src="/projects/CryptoLivepng (1).png" alt="">
-              <a href="https://cryptoliveweb.netlify.app/"><h3>Live-CryptoCoin</h3></a>
-          </div>
-  
-          <div class="box">
-              <img src="/projects/Blog Websitepng.png" alt="">
-              <a href="https://sarathi01.netlify.app/"><h3>Bootstrap-Website</h3></a>
-          </div>
-  
-          <div class="box">
-              <img src="/projects/Documentpng.png" alt="">
-              <a href="https://samsunggalaxybuds.netlify.app/"><h3>Samsung-Website</h3></a>
-          </div>
-  
-          <div class="box">
-              <img src="/projects/Fashion Cartpng.png" alt="">
-              <a href="https://glow-fashion.netlify.app/"><h3>Glow-Fashion</h3></a>
-              
-          </div>
-  
-          <div class="box">
-              <img src="/projects/NIKEpng.png" alt="">
-              <a href="https://github.com/itsprajapati1204/Nikewebsite"><h3>Nike-Website</h3></a>
-              
-          </div>
-  
-          <div class="box">
-              <img src="/projects/TalkHub   Chatpng.png" alt="">
-              <a href="https://github.com/itsprajapati1204/Chat-website"><h3>Chat-Website</h3></a>
-              
-          </div>
-          <div class="box">
-              <img src="/projects/Librarypng.png" alt="">
-              <a href=""><h3>Libray-website</h3></a>
-              
-          </div>
-  
-          <div class="box">
-              <img src="/projects/Analog Clockpng.png" alt="">
-              <a href="https://clock-js-new.netlify.app/"><h3>Clock-js</h3></a>
-              
-          </div>
-          <div class="box">
-              <img src="/projects/New webpng.png" alt="">
-              <a href="https://usabilityhub03.netlify.app/"><h3>Responsive-Web-YT</h3></a>
-              
-          </div>
-  
-          <div class="box">
-              <img src="/projects/Portfolio   Shubhampng.png" alt="">
-              <a href="https://shubhamsportfolioweb.netlify.app/"><h3>Portfolio</h3></a>
-              
-          </div>
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle"
+          ><i class="fa-solid fa-bars" onclick="HamIcon(this)"></i
+        ></a>
+        <!-- <i class="fi fi-br-cross"></i> -->
       </div>
-     
-  </div>
-  </section>
-   <!-- sub-footer -->
-   <div class="sub-footer">
-    <div class="container flex sub-footer-container">
-      <a href="#" class="hover-link">
-        Designed with <i class="fa-solid fa-heart fa-beat" style="color: #ff0000;"></i> by Shubham Singh Prajapati &nbsp; &nbsp;</a>
-        <a href="https://www.instagram.com/its_prajapati1204/" class="hover-link"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/shubham-singh-prajapati-3214a5254/" class="hover-link"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://codepen.io/itsprajapati1204" class="hover-link"><i class="fa-brands fa-codepen"></i></a>
-        <a href="https://github.com/itsprajapati1204" class="hover-link"><i class="fa-brands fa-github"></i></a>
-      
+    </nav>
+    <!-- Navbar section end -->
+    <!-- project section -->
+    <section class="container New-project-page" id="projects">
+      <div class="features-header project-text"><h2>Projects</h2></div>
+      <div class="container-new">
+        <div class="box-container-new" data-aos="slide-up">
+          <div class="box">
+            <img src="/projects/CryptoLivepng (1).png" alt="" />
+            <a href="https://cryptoliveweb.netlify.app/"
+              ><h3>Live-CryptoCoin</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/Blog Websitepng.png" alt="" />
+            <a href="https://sarathi01.netlify.app/"
+              ><h3>Bootstrap-Website</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/Documentpng.png" alt="" />
+            <a href="https://samsunggalaxybuds.netlify.app/"
+              ><h3>Samsung-Website</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/Fashion Cartpng.png" alt="" />
+            <a href="https://glow-fashion.netlify.app/"
+              ><h3>Glow-Fashion</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/NIKEpng.png" alt="" />
+            <a href="https://github.com/itsprajapati1204/Nikewebsite"
+              ><h3>Nike-Website</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/TalkHub   Chatpng.png" alt="" />
+            <a href="https://github.com/itsprajapati1204/Chat-website"
+              ><h3>Chat-Website</h3></a
+            >
+          </div>
+          <div class="box">
+            <img src="/projects/Librarypng.png" alt="" />
+            <a href=""><h3>Libray-website</h3></a>
+          </div>
+
+          <div class="box">
+            <img src="/projects/Analog Clockpng.png" alt="" />
+            <a href="https://clock-js-new.netlify.app/"><h3>Clock-js</h3></a>
+          </div>
+          <div class="box">
+            <img src="/projects/New webpng.png" alt="" />
+            <a href="https://usabilityhub03.netlify.app/"
+              ><h3>Responsive-Web-YT</h3></a
+            >
+          </div>
+
+          <div class="box">
+            <img src="/projects/Portfolio   Shubhampng.png" alt="" />
+            <a href="https://shubhamsportfolioweb.netlify.app/"
+              ><h3>Portfolio</h3></a
+            >
+          </div>
+          <div class="box">
+            <img src="/projects/tictaktoe.png" alt="" />
+            <a href="https://gamecrose.vercel.app/"><h3>Tic-Tak-Toe</h3></a>
+          </div>
+          <div class="box">
+            <img src="/projects/Rock-Paper-game.png" alt="" />
+            <a href="https://rockpapergame-neon.vercel.app/"
+              ><h3>Rock-Paper-Game</h3></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sub-footer -->
+    <div class="sub-footer">
+      <div class="container flex sub-footer-container">
+        <a href="#" class="hover-link">
+          Designed with
+          <i class="fa-solid fa-heart fa-beat" style="color: #ff0000"></i> by
+          Shubham Singh Prajapati &nbsp; &nbsp;</a
+        >
+        <a
+          href="https://www.instagram.com/its_prajapati1204/"
+          class="hover-link"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/shubham-singh-prajapati-3214a5254/"
+          class="hover-link"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://codepen.io/itsprajapati1204" class="hover-link"
+          ><i class="fa-brands fa-codepen"></i
+        ></a>
+        <a href="https://github.com/itsprajapati1204" class="hover-link"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
     </div>
-  </div>
-<!-- toggle of hameburger icon -->
+    <!-- toggle of hameburger icon -->
     <script>
       const toggleButton = document.getElementById("nav-toggle");
       const navLinks = document.getElementById("nav-links");
@@ -148,14 +193,14 @@
         navLinks.classList.toggle("active");
       });
     </script>
-<!-- dake mode toggle -->
-<script type ="text/javascript"> 
-  function myfunction() {
-      var element =document.body;
-      element.classList.toggle('dark-mode');
-        }
-  </script>
-    
+    <!-- dake mode toggle -->
+    <script type="text/javascript">
+      function myfunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+
     <!-- scrolling name like webdeveloper sript -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
@@ -163,38 +208,37 @@
         strings: ["Web Developer.", "Graphic Designer", "Web Designer."],
         typeSpeed: 90,
         backSpeed: 110,
-        loop:true,
+        loop: true,
       });
- </script>
- <!-- // excel sheet request Script // -->
+    </script>
+    <!-- // excel sheet request Script // -->
 
-   
-    
- <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzM6LlpiHmnBCV2XDQ2aOj3ZMhYygas83OcRdmIOWZ8qsGHwE948r-_1f5-Y_vqYOrx/exec'
-  const form = document.forms['submit-to-google-sheet']
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzM6LlpiHmnBCV2XDQ2aOj3ZMhYygas83OcRdmIOWZ8qsGHwE948r-_1f5-Y_vqYOrx/exec";
+      const form = document.forms["submit-to-google-sheet"];
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      // .then(response =>alert("Thanks for Connecting"))
-      .catch(error => console.error('Error!', error.message))
-  })
-  </script>
-  <script language="JavaScript">
-    function function2() { 
-    swal("Success!", "Your data have been saved. Thank you!" , "success");
-    }
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          // .then(response =>alert("Thanks for Connecting"))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script language="JavaScript">
+      function function2() {
+        swal("Success!", "Your data have been saved. Thank you!", "success");
+      }
     </script>
     <script src="script.js"></script>
 
-<!-- website animation script -->
+    <!-- website animation script -->
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-    offset: 250,
-  });
-</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+      });
+    </script>
   </body>
 </html>
