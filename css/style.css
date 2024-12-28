@@ -87,6 +87,10 @@ ul {
   display: flex;
   align-items: center;
 }
+.flex1 {
+  display: flex;
+  align-items:flex-end;
+}
 .flex-btn {
   display: flex;
  justify-content: center;
@@ -324,9 +328,12 @@ footer {
 }
 .sub-footer-container {
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
-
+.sub-footer-box a i{
+ align-items: center;
+ margin: 5px;
+}
 
 
 /* --------------------contact section------------------------  */
